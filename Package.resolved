@@ -1,0 +1,196 @@
+{
+  "object": {
+    "pins": [
+      {
+        "package": "MySQLStORM",
+        "repositoryURL": "https://github.com/SwiftORM/MySQL-StORM.git",
+        "state": {
+          "branch": null,
+          "revision": "43e80ff89a04a0d9b408da73a582d75af0b74653",
+          "version": "3.2.2"
+        }
+      },
+      {
+        "package": "COpenSSL",
+        "repositoryURL": "https://github.com/PerfectlySoft/Perfect-COpenSSL.git",
+        "state": {
+          "branch": null,
+          "revision": "7cc9341d0751b3d7e77927ad8c4e668e1c4dc1d1",
+          "version": "3.1.4"
+        }
+      },
+      {
+        "package": "PerfectCRUD",
+        "repositoryURL": "https://github.com/PerfectlySoft/Perfect-CRUD.git",
+        "state": {
+          "branch": null,
+          "revision": "50d458bf8af90651dcfbb155cd66ade32c2af59a",
+          "version": "1.1.0"
+        }
+      },
+      {
+        "package": "PerfectCrypto",
+        "repositoryURL": "https://github.com/PerfectlySoft/Perfect-Crypto.git",
+        "state": {
+          "branch": null,
+          "revision": "54e0f7c2a9d7355fca3c23e0f88096ac3765e08b",
+          "version": "3.1.2"
+        }
+      },
+      {
+        "package": "PerfectCURL",
+        "repositoryURL": "https://github.com/PerfectlySoft/Perfect-CURL.git",
+        "state": {
+          "branch": null,
+          "revision": "08ba26c7b768e9e2096d1fe475e0cef733b98a75",
+          "version": "3.0.7"
+        }
+      },
+      {
+        "package": "PerfectCZlib",
+        "repositoryURL": "https://github.com/PerfectlySoft/Perfect-CZlib-src.git",
+        "state": {
+          "branch": null,
+          "revision": "b63e46909aad937c6434766f8f8c6720d8f3bd05",
+          "version": "0.0.4"
+        }
+      },
+      {
+        "package": "PerfectHTTP",
+        "repositoryURL": "https://github.com/PerfectlySoft/Perfect-HTTP.git",
+        "state": {
+          "branch": null,
+          "revision": "f200c29bc728329f1ede94efec3bf5d16e1c13fe",
+          "version": "3.1.0"
+        }
+      },
+      {
+        "package": "PerfectHTTPServer",
+        "repositoryURL": "https://github.com/PerfectlySoft/Perfect-HTTPServer.git",
+        "state": {
+          "branch": null,
+          "revision": "50bd6f46fc8663c5e430391f4e1ebb078f15d00f",
+          "version": "3.0.17"
+        }
+      },
+      {
+        "package": "cURL",
+        "repositoryURL": "https://github.com/PerfectlySoft/Perfect-libcurl.git",
+        "state": {
+          "branch": null,
+          "revision": "672f6695d9ae04fce16ad01decef0649e0b872b0",
+          "version": "2.0.6"
+        }
+      },
+      {
+        "package": "PerfectLogger",
+        "repositoryURL": "https://github.com/PerfectlySoft/Perfect-Logger.git",
+        "state": {
+          "branch": null,
+          "revision": "00bd1cf9d01657c73d7b3d27d5cc6437cc583f39",
+          "version": "3.1.0"
+        }
+      },
+      {
+        "package": "PerfectMySQL",
+        "repositoryURL": "https://github.com/PerfectlySoft/Perfect-MySQL.git",
+        "state": {
+          "branch": null,
+          "revision": "318067a59427b5e4bc5d8fb28ce5b3dc83bd9bc3",
+          "version": "3.2.0"
+        }
+      },
+      {
+        "package": "mysqlclient",
+        "repositoryURL": "https://github.com/PerfectlySoft/Perfect-mysqlclient.git",
+        "state": {
+          "branch": null,
+          "revision": "51991fc81e40ddef36e8db1868c9b7f1f83d30dc",
+          "version": "2.0.1"
+        }
+      },
+      {
+        "package": "PerfectNet",
+        "repositoryURL": "https://github.com/PerfectlySoft/Perfect-Net.git",
+        "state": {
+          "branch": null,
+          "revision": "32cf5846ce212bf6aa2cb9d27a9b4f230355c1f9",
+          "version": "3.2.0"
+        }
+      },
+      {
+        "package": "PerfectRequestLogger",
+        "repositoryURL": "https://github.com/PerfectlySoft/Perfect-RequestLogger.git",
+        "state": {
+          "branch": null,
+          "revision": "c2eaee1f37444b1866ef6967c9d6b5627b2307ef",
+          "version": "3.0.2"
+        }
+      },
+      {
+        "package": "PerfectSession",
+        "repositoryURL": "https://github.com/PerfectlySoft/Perfect-Session.git",
+        "state": {
+          "branch": null,
+          "revision": "5cd6ccd4684a0c31a0fd3a91b7680dc093f33657",
+          "version": "3.1.5"
+        }
+      },
+      {
+        "package": "PerfectSessionMySQL",
+        "repositoryURL": "https://github.com/PerfectlySoft/Perfect-Session-MySQL.git",
+        "state": {
+          "branch": null,
+          "revision": "d1b769bdd2a37aaee2ab4d80e15b8a425ddc236f",
+          "version": "3.1.1"
+        }
+      },
+      {
+        "package": "PerfectThread",
+        "repositoryURL": "https://github.com/PerfectlySoft/Perfect-Thread.git",
+        "state": {
+          "branch": null,
+          "revision": "d783048201086dc2cdc08627041e5001157db7f3",
+          "version": "3.0.4"
+        }
+      },
+      {
+        "package": "PerfectLib",
+        "repositoryURL": "https://github.com/PerfectlySoft/PerfectLib.git",
+        "state": {
+          "branch": null,
+          "revision": "cdc17d544ec8e87da5f3b24cdbda8d02d77bb943",
+          "version": "3.1.1"
+        }
+      },
+      {
+        "package": "StORM",
+        "repositoryURL": "https://github.com/SwiftORM/StORM.git",
+        "state": {
+          "branch": null,
+          "revision": "653f4bdfa67707252a4033a1004880b9a127603b",
+          "version": "3.2.4"
+        }
+      },
+      {
+        "package": "SwiftMoment",
+        "repositoryURL": "https://github.com/iamjono/SwiftMoment.git",
+        "state": {
+          "branch": null,
+          "revision": "9c6f0e8f590930f0f79a85e40e167b7b4cd071fa",
+          "version": "1.1.0"
+        }
+      },
+      {
+        "package": "SwiftString",
+        "repositoryURL": "https://github.com/iamjono/SwiftString.git",
+        "state": {
+          "branch": null,
+          "revision": "a628671f5d84a31bd9d4220eb434da888f364b79",
+          "version": "2.0.4"
+        }
+      }
+    ]
+  },
+  "version": 1
+}
