@@ -8,7 +8,7 @@ import PerfectRequestLogger
     
 MySQLConnector.host = "localhost";
 MySQLConnector.username = "root";
-MySQLConnector.password = "Chason1208";
+MySQLConnector.password = "123456";
 MySQLConnector.port = 3306;
 MySQLConnector.database = "WebService";
     
