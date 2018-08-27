@@ -7,6 +7,7 @@
 import PerfectHTTP
 import PerfectLib
 import MySQLStORM
+import Foundation
 
 class UserLogin : NetRequest {
     
@@ -16,8 +17,9 @@ class UserLogin : NetRequest {
         let password :String! = request.paramSafe(name: "password");
         
         let user = UserModel();
-        try? user.find([("userName", userName)]);
-        
+        let nameString = NSString.init(string: userName)
+        try? user.find(["userName":nameString])
+
         guard user.results.foundSetCount>0 else {
             response.sendError(message: "用户名不存在");
             return;

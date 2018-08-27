@@ -9,6 +9,8 @@ import PerfectHTTP
 import PerfectRequestLogger
 import PerfectLib
 import StORM
+import MySQLStORM
+import Foundation
 
 class UserRegisterModel : DataModel {
     var id : Int = 0;
@@ -52,21 +54,22 @@ class UserRegister: NetRequest {
         
         let userName :String! = request.paramSafe(name: "userName");
         let password :String! = request.paramSafe(name: "password");
-        
+        // swift 的string 在 String(describing: ）以后 包含很多 option 的信息 不是纯string 转成 Nsstring
         let user = UserRegisterModel();
-        
-        user.userName=userName;
-        user.password=password;
-       
-        let registerTime : String = try! formatDate(getNow(), format: "%Y-%m-%d %H:%M:%S");
-        user.registerTime = registerTime;
-        try? user.find([("userName", userName)]);
-        
+        let nameString = NSString.init(string: userName)
+        try? user.find(["userName":nameString])
+
         guard user.results.foundSetCount <= 0 else {
             response.sendError(message: "该用户已存在");
             return;
         }
-        
+
+        user.userName=userName;
+        user.password=password;
+
+        let registerTime : String = try! formatDate(getNow(), format: "%Y-%m-%d %H:%M:%S");
+        user.registerTime = registerTime;
+
         try? user.save(set: { (id) in
             user.id=id as! Int;
         })
